@@ -1,4 +1,4 @@
-package July19_Contest;
+package July_19_Contest;
 import java.util.Scanner;
 
 public class Odd_Even_Task {
