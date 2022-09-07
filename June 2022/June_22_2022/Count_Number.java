@@ -7,12 +7,13 @@ public class Count_Number {
         System.out.println("Enter the number ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-
+       
+        sc.close();
         int counter = 0;
-        int sum = 0;
+        // int sum = 0;
 
         while(num > 0){
-        //   int digit =   num % 10;
+          // int digit =   num % 10;
           counter++;
           num = num/10;
         
