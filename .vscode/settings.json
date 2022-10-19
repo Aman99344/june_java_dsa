@@ -1,3 +1,8 @@
 {
-    "java.dependency.packagePresentation": "flat"
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.project.sourcePaths": [
+        "June 2022",
+        "July 2022",
+        "Aug 2022"
+    ]
 }

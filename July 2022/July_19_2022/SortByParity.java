@@ -1,15 +1,17 @@
-package July_13_2022;
+package July_19_2022;
 
 import java.util.Arrays;
 
-public class SortByParityUsingTwoPointer {
+public class SortByParity {
     public static void main(String[] args) {
-        int a[] = {1,2,3,4,5,6,7,8};
+        
+        int a[] = {3,2,7,6,1,11,1,2,4,5,8,9,6};
 
         int i = 0;
         int j = a.length-1;
 
         while(i<j){
+
             if(a[i] % 2 == 0){
                 i++;
             }
@@ -24,9 +26,10 @@ public class SortByParityUsingTwoPointer {
                 a[i] = a[j];
                 a[j] = temp;
 
-                i++;
-                j--; 
             }
+
+            i++;
+            j--;
         }
 
         System.out.println(Arrays.toString(a));

@@ -1,4 +1,4 @@
-package July_11_2022;
+ package July_11_2022;
 
 public class Palidrom_Array {
     public static void main(String[] args) {
